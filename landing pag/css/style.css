@@ -751,7 +751,7 @@ width:100%;
 .try_slider_img_Wrapper{
 	z-index:100;
 	position: absolute;
-    right:100px;
+    right:60px;
 	top: 135px;
 	border-radius: 60px;
 	animation-delay: 4.2s;
@@ -852,7 +852,7 @@ width:100%;
   margin-top: 0;
 }
 .carousel-nevigation{
-	position:absolute;
+	position:relative;
 	top:45%;
 	float:left;
 	width:100%;	
@@ -1916,10 +1916,10 @@ background: -ms-linear-gradient(top, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 8%
 .try_rc_mob_box_wrapper{
 	float:left;
 	width:100%;
-	background:rgba(255, 69, 69, 0.06);
+	background:rgba(0, 0, 0, 0.06);
 	border:1px solid #8a8a8a;
 	text-align:center;
-	padding-top:60px;
+	padding: top 60px;
 	padding-bottom:30px;
 	overflow:hidden;
 	-webkit-border-radius: 10px;
@@ -1941,24 +1941,27 @@ background: -ms-linear-gradient(top, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 8%
 }
 .try_rc_mob_img{
 	float:left;
+	margin-top: 10px;
 	width:100%;
 	position:relative;
 }
 .try_rc_mob_img h5{
-	font-size:10px;
-	color:#ffffff;
-	width:40px;
-	height:40px;
-	line-height:40px;
-	text-align:center;
-	float:left;
-	background:#333333;
-	    -webkit-border-radius: 100%;
+	font-size: 13px;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    line-height: 12px;
+    background: #000000;
+    -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
-	position:absolute;
-	top: -45px;
+    position: absolute;
+    top: 15px;
     left: 20px;
+    padding-top: 9px;
 
 }
 .try_rc_mob_img a{
@@ -2472,7 +2475,7 @@ background: -ms-linear-gradient(45deg, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 
 	float:left;
 	width:100%;
 	position:relative;
-	top:50px;
+	top:30px;
 }
 .try_led_heading_wrapper{
 	float:left;

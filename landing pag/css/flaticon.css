@@ -25,8 +25,11 @@
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
         font-size: 20px;
+position: relative;
 font-style: normal;
 margin-left: 20px;
+margin-top: 50px;
+margin-bottom: 20px;
 }
 
 .flaticon-padlock:before { content: "\f100"; }
