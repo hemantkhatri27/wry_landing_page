@@ -125,6 +125,7 @@
 
 
 
+
 #uc_grid_1_35918 .uc-grid-row#uc_grid_1_35918_row_2{
 	padding-top:40px;
 	padding-bottom:60px;
@@ -572,6 +573,35 @@ ul{
     -moz-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
 }
+ /* 
+#slides {
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+	font-size: 0;
+	transform: translateX(0);
+  }
+  
+  .slide {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	background-size: cover;
+	background-position: center;
+	background-color: #cccccc;
+  }
+  
+  .animate {
+	transition: all .5s ease-out;
+  }
+
+  .slide:nth-child(1) {background-image: url(http://fakeimg.pl/640x480/);}
+  .slide:nth-child(2) {background-image: url(http://fakeimg.pl/641x480/);}
+  .slide:nth-child(3) {background-image: url(http://fakeimg.pl/642x480/);}
+  .slide:nth-child(4) {background-image: url(http://fakeimg.pl/643x480/);}
+  .slide:nth-child(5) {}
+*/
+
 .try_send_to_top {
 	top: 0;	
 } 
@@ -2173,18 +2203,54 @@ width:100%;
 	float:left;
 	width:100%;	
 	display:block !important;
+	
 }
+/*
+.try_banner_slider_inner_wrapper .carousel-nevigation > .prev{
+	left:-138px;
+	position:absolute;
+	width:50px;
+	height:50px;
+	font-size:100px;
+	    background: transparent;
+    color: #fff;
+	font-weight:100;
+	text-align:center;
+	line-height:46px;
+	    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.try_banner_slider_inner_wrapper .carousel-nevigation > .next{
+	right:-138px;
+	position:absolute;
+	width:50px;
+	height:50px;
+	    background: transparent;
+    color: #fff;
+	font-size:100px;
+	text-align:center;
+	line-height:46px;
+	    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+*/
 .try_banner_erp_slider_inner_wrapper .carousel-nevigation > .prev{
 	left:-138px;
 	position:absolute;
 	width:50px;
 	height:50px;
 	font-size:100px;
-	    top: 10px;
 	    background: transparent;
     color: #fff;
+	font-weight:100;
 	text-align:center;
-	line-height:0;
+	line-height:46px;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2198,8 +2264,9 @@ width:100%;
 	height:50px;
 	    background: transparent;
     color: #fff;
+	font-size:100px;
 	text-align:center;
-	line-height:70px;
+	line-height:46px;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2639,17 +2706,53 @@ width:100%;
 	width:100%;	
 	display:block !important;
 }
+
+/*
+.try_banner_slider_inner_wrapper .carousel-nevigation > .prev{
+	left:-138px;
+	position:absolute;
+	width:50px;
+	height:50px;
+	font-size:100px;
+	    background: transparent;
+    color: #fff;
+	font-weight:100;
+	text-align:center;
+	line-height:46px;
+	    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.try_banner_slider_inner_wrapper .carousel-nevigation > .next{
+	right:-138px;
+	position:absolute;
+	width:50px;
+	height:50px;
+	    background: transparent;
+    color: #fff;
+	font-size:100px;
+	text-align:center;
+	line-height:46px;
+	    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+*/
 .try_banner_watch_slider_inner_wrapper .carousel-nevigation > .prev{
 	left:-138px;
 	position:absolute;
 	width:50px;
 	height:50px;
 	font-size:100px;
-	    top: 10px;
 	    background: transparent;
     color: #fff;
+	font-weight:100;
 	text-align:center;
-	line-height:0;
+	line-height:46px;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2663,8 +2766,9 @@ width:100%;
 	height:50px;
 	    background: transparent;
     color: #fff;
+	font-size:100px;
 	text-align:center;
-	line-height:70px;
+	line-height:46px;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2840,17 +2944,53 @@ width:100%;
 	width:100%;	
 	display:block !important;
 }
+
+/*
+.try_banner_slider_inner_wrapper .carousel-nevigation > .prev{
+	left:-138px;
+	position:absolute;
+	width:50px;
+	height:50px;
+	font-size:100px;
+	    background: transparent;
+    color: #fff;
+	font-weight:100;
+	text-align:center;
+	line-height:46px;
+	    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.try_banner_slider_inner_wrapper .carousel-nevigation > .next{
+	right:-138px;
+	position:absolute;
+	width:50px;
+	height:50px;
+	    background: transparent;
+    color: #fff;
+	font-size:100px;
+	text-align:center;
+	line-height:46px;
+	    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+*/
 .try_banner_mac_slider_inner_wrapper .carousel-nevigation > .prev{
 	left:-138px;
 	position:absolute;
 	width:50px;
 	height:50px;
-	    top: 10px;
 	font-size:100px;
 	    background: transparent;
     color: #fff;
+	font-weight:100;
 	text-align:center;
-	line-height:0;
+	line-height:46px;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2864,8 +3004,9 @@ width:100%;
 	height:50px;
 	    background: transparent;
     color: #fff;
+	font-size:100px;
 	text-align:center;
-	line-height:70px;
+	line-height:46px;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -3644,3 +3785,35 @@ background: -ms-linear-gradient(top, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 8%
 	display:none;
 }
 /******------try footer section End------********/
+
+
+
+.arrow {
+	border: solid black;
+	width:50 px;
+	height: 50 px;
+	border-width: auto auto auto auto;
+	display: inline-block;
+	padding: 3px;
+	color: white;
+  }
+  
+  .right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+  }
