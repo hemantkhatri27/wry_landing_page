@@ -22,7 +22,62 @@
 /* my section starts*/
 /* blox page builder grid css */
 
-
+.axcontainer {
+	position: relative;
+	width: 100%;
+	
+  }
+  
+  .axcontainer img {
+	width: 100%;
+	height: auto;
+  }
+  
+  .axcontainer .axtone {
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: rgb(0, 0, 0);
+	color: white;
+	font-family: 'Poppins';
+	font-size: 18px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 16px;
+	border-color: black;
+	text-align: center;
+	width:40%;
+	height:15%;
+  }
+  .axcontainer .axtone2{
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	width:40%;
+	border-color: black;
+	background-color:black;
+	color: white;
+	font-size: 18px;
+	font-family: 'Poppins';
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 16px;
+	text-align: center;
+	height:15%;
+  }
+  
+  .axcontainer .axtone:hover {
+	background-color: grey;
+}
+.axcontainer .axtone2:hover {
+	background-color: grey;
+}
 
 #uc_grid_1_35918 .uc-grid-row{
 	padding-top:30px;
@@ -1796,6 +1851,23 @@ width:100%;
 }
 /******------try Slider banner End------********/
 /******------try recent mobail Slider Start------********/
+
+.baby{
+	width: auto ;
+	max-width: 120% ;
+	height: auto ;
+}
+.babycontainer{
+
+}
+.babycontainer img{
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	
+}
 .try_recent_mobail_main_wrapper{
 	float:left;
 	width:100%;
@@ -1835,6 +1907,8 @@ width:100%;
 	font-size:36px;
 	color:#111111;
 }
+
+
 .try_recent_mob_heading_wrapper p{
 	display:inline-block;
 	margin-top:30px;
@@ -3680,6 +3754,7 @@ background: -ms-linear-gradient(top, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 8%
 }
 .try_footer_second_sec_wrapper ul{
 	margin-top:40px;
+	color: white;
 }
 .try_footer_second_sec_wrapper li{
 	float:left;
@@ -3687,7 +3762,7 @@ background: -ms-linear-gradient(top, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 8%
 	margin-top:10px;
 }
 .try_footer_second_sec_wrapper li a{
-	color:rgba(0, 0, 0, 0.58);
+	color:rgb(255, 255, 255);
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;

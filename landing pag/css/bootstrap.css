@@ -1594,6 +1594,15 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.container2{
+  align: middle;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container2 img{
+  width: 180%;
+  margin-left:-130px;
+}
 .image_margin {
   padding-right: 5px;
   padding-left: 55px;

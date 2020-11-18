@@ -12,6 +12,14 @@
 .uc_elegant_prodcut_banner .uc_content_box a:hover{ opacity:0.7;-webkit-transition: all 0.3s ease-in-out 0s;-moz-transition: all 0.3s ease-in-out 0s;-ms-transition: all 0.3s ease-in-out 0s;}
 	
 
+.uc_elegant_prodcut_banner .uc_content_box2{ 
+    text-align:middle; 
+    position:absolute;
+     bottom:0px; 
+     width:80%;
+    right:0px; 
+      padding:10%;
+    }
 
 
 
