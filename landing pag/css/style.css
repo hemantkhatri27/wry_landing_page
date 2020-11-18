@@ -22,6 +22,8 @@
 /* my section starts*/
 /* blox page builder grid css */
 
+
+
 #uc_grid_1_35918 .uc-grid-row{
 	padding-top:30px;
 	padding-bottom:30px;
@@ -2176,6 +2178,7 @@ background: -ms-linear-gradient(45deg, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 
 	background-size:cover;
 	position:relative;
 	overflow:hidden;
+	
 }
 .try_banner_erp_img_overlay{
 	position:absolute;
@@ -2195,18 +2198,21 @@ background: -ms-linear-gradient(45deg, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 
   height:100%;
   min-height:700px;
   position:relative;
+ 
 }
 .try_banner_erp_slider_inner_wrapper .carousel-inner .item .caption-2 {
 width:100%;
   height:100%;
   min-height:700px;
   position:relative;
+
 }
 .try_banner_erp_slider_inner_wrapper .carousel-inner .item .caption-3 {
 width:100%;
   height:100%;
   min-height:700px;
   position:relative;
+
 }
 .try_banner_erp_slider_inner_wrapper .carousel-inner .item .caption-4 {
 	width:100%;
