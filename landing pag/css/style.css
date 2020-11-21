@@ -1066,9 +1066,9 @@ width:100%;
 }
 .lr_banner_content_inner_wrapper h3{
 	font-family: League Spartan Bold, arial;
-	font-size:36px;
+	font-size:40px;
 	color:#111111;
-	font-weight:500;
+	font-weight:bold;
 	margin-top:20px;
 	position:relative;
 	animation-delay: 1.5s;

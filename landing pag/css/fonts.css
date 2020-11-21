@@ -424,6 +424,8 @@
 }
 @font-face{
   font-family: 'League Spartan Bold', arial;
+  src: url("../fonts/league-spartan_96d155934eb746bc55706f1589b67f14.woff") format("woff"),
+  url("../fonts/league-spartan_96d155934eb746bc55706f1589b67f14.ttf") format("truetype");
 
 }
 @font-face{
